@@ -1,0 +1,191 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url(images.jpg);
+    background-size: cover;
+}
+
+nav {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.hade {
+    color: orange;
+    text-align: left;
+    font-size: 20px;
+}
+
+p {
+    color: white;
+    margin-left: 100PX;
+    margin-top: 15px;
+
+}
+
+.SEARCH {
+    height: 50PX;
+    width: 300PX;
+    border: 2PX solid rgb(187, 125, 9);
+    border-radius: 10PX;
+    margin-left: 50px;
+    color: white;
+}
+
+button {
+    width: 100PX;
+    height: 50PX;
+    border: 2PX solid rgb(91, 61, 4);
+    border-radius: 10PX;
+    background-color: orange;
+    color: white;
+    margin-top: 30px;
+}
+
+button:hover {
+    background-color: brown;
+    cursor: pointer;
+}
+
+.content {
+    color: white;
+    font-size: 50px;
+    margin-left: 35px;
+    margin-top: 100px;
+}
+
+.content-1 {
+    color: orange;
+    font-size: 50px;
+    margin-left: 35px;
+}
+
+.content-2 {
+    color: white;
+    font-size: 50px;
+    margin-left: 35px;
+}
+
+.paragraph {
+    color: white;
+    font-size: 15px;
+    margin-left: 35px;
+}
+
+.paragraph-1 {
+    color: white;
+    font-size: 15px;
+    margin-left: 35px;
+}
+
+.paragraph-2 {
+    color: white;
+    font-size: 15px;
+    margin-left: 35px;
+}
+
+.bo {
+    width: 150px;
+    height: 50px;
+    background-color: brown;
+    color: black;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-left: 35px;
+}
+
+.main {
+    display: inline-block;
+}
+
+.main-1 {
+    display: inline-block;
+    margin-left: 350px;
+    margin-top: 30px;
+}
+
+.login {
+    width: 330px;
+    height: 450px;
+    background-image: url(er.jpg);
+    background-size: cover;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.con {
+    height: 50px;
+    width: 230px;
+    background-color: white;
+    color: orange;
+    text-align: center;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 20px;
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+input {
+    height: 50px;
+    width: 230px;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 20px;
+    margin-left: 50px;
+    background-color: black;
+    border: 2px solid orange;
+}
+
+.log {
+    height: 50px;
+    width: 230px;
+    background-color: orange;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 20px;
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+span {
+    color: white;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.to {
+    color: orange;
+    font-size: 20px;
+}
+
+.ro {
+    color: white;
+    font-size: 20px;
+}
+
+img {
+    height: 30px;
+    width: 30px;
+    background-color: bisque;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
